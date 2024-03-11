@@ -12,7 +12,10 @@ th, td {
 }
 th {
     background-color: black;
+    font-style: italic;
+    font-weight: bold;
 }
+
 .pe{
     background-color: #FFA07A;
 }
@@ -120,5 +123,14 @@ a.centered-link{
 }
 p.text{
     text-align: center;
+}
+@media print{
+    .img{
+        filter: grayscale(100%);
+    }
+    a{
+        color: black;
+
+    }
 }
 
